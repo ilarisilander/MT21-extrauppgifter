@@ -1,3 +1,8 @@
+*** Settings ***
+Documentation  It's possible to gather all buttons from the whole website and gather them all
+...  in one keyword file. In this case we call it buttons.robot and it works just like keywords.robot.
+...  Make sure to import this as a Library in extrauppgifter.robot
+
 *** Keywords ***
 Click On Cart Button
     Wait Until Page Contains Element  //*[@id="rise-header"]/div[1]/div/div[5]/div/a/span[3]

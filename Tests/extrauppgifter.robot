@@ -7,6 +7,8 @@ Test Teardown  End Web Test
 
 *** Test Cases ***
 User Can Add Item To Cart
+    [Documentation]  Using arguments in "Search For Item" makes it reusable if we want to search for other items
+    ...  in another test case
     Access MediaMarkts Web Site
     Search For Item     NINTENDO Switch 2019 - Grå     2019 - Grå
     Put Item In Cart Without Insurance  NINTENDO Switch 2019 - Grå
